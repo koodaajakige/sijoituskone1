@@ -13,7 +13,7 @@
     </section>
     <footer>
       <hr>
-      <div>Sijoituskone by Koodaajatiimi</div>
+      <div>Sijoituskone by Koodaajat</div>
     </footer>
   </body>
 </html>

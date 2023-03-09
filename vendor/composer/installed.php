@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '5537ce97f7264adea504a7794acd36f381eb4767',
+        'reference' => '96b7bcbbfa89c8f01adf577b8bc47a4323b6aae3',
         'name' => '__root__',
         'dev' => true,
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '5537ce97f7264adea504a7794acd36f381eb4767',
+            'reference' => '96b7bcbbfa89c8f01adf577b8bc47a4323b6aae3',
             'dev_requirement' => false,
         ),
         'league/plates' => array(
