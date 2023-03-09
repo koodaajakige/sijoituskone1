@@ -12,9 +12,11 @@
   
   // Selvitetään mitä sivua on kutsuttu ja suoritetaan sivua vastaava
   // käsittelijä.
-  if ($request === '/' || $request === '/public/tuloslaskelma') {
+  if ($request === '/' || $request === '/etusivu') {
+    echo $templates->render('etusivu');
+  } else if ($request === '/tuloslaskelma') {
     echo $templates->render('tuloslaskelma');
-  } else if ($request === '/public/sijoitukset') {
+  } else if ($request === '/sijoitukset') {
     echo $templates->render('sijoitukset');
   } else {
     echo $templates->render('notfound');
