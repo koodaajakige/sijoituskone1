@@ -61,7 +61,7 @@ try {
 		unset($_POST);
 		unset($_REQUEST);
 		//header("Location: index.php?id=$id");	
-		header("Location: sijoitukset");
+		header("Location: tallennusok");
 	}
 	
 }catch (PDOException $e){

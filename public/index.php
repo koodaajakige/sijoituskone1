@@ -20,6 +20,8 @@
     echo $templates->render('sijoitukset');
   } else if ($request === '/lisaa') {
     echo $templates->render('lisaa');
+  } else if ($request === '/tallennusok') {
+    echo $templates->render('tallennusok');
   } else {
     echo $templates->render('notfound');
   }

@@ -1,5 +1,3 @@
 <?php $this->layout('template', ['title' => 'Sijoitukset']) ?>
 
-<h1>Onnittelut! Tietojen tallennus onnistui.</h1>
-
-
+<h1>Täältä näät sijoitustesi tuotot:</h1>
