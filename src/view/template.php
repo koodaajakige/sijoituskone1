@@ -11,7 +11,7 @@
     <div class="navigointi">
       <ul>
         <li><a href="etusivu" title="Etusivu">Etusivu</a></li>
-        <li><a href="tuloslaskelma" title="Tuloslaskelma">Tuloslaskelma</a></li>
+        <li><a href="uusiyritys" title="Uusi yritys">Uusi yritys</a></li>
         <li><a href="sijoitukset" title="Sijoitukset">Sijoitukset</a></li>
       </ul>
     </div>

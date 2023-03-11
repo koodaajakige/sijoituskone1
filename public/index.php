@@ -14,10 +14,12 @@
   // käsittelijä.
   if ($request === '/' || $request === '/etusivu') {
     echo $templates->render('etusivu');
-  } else if ($request === '/tuloslaskelma') {
-    echo $templates->render('tuloslaskelma');
+  } else if ($request === '/uusiyritys') {
+    echo $templates->render('uusiyritys');
   } else if ($request === '/sijoitukset') {
     echo $templates->render('sijoitukset');
+  } else if ($request === '/lisaa') {
+    echo $templates->render('lisaa');
   } else {
     echo $templates->render('notfound');
   }
